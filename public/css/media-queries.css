@@ -1,0 +1,214 @@
+@media (min-width: 768px) {
+  .accordion {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .accordion p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+  .partners {
+    margin-left: 20rem;
+    margin-right: 25rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-title {
+    font-size: 2rem;
+  }
+  .card-text {
+    font-size: 1.4rem !important;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 1400px) {
+  .accordion {
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+  .ac-why-us {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+  .section-title p {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+    text-transform: none;
+  }
+  .card-title {
+    font-size: 2rem;
+  }
+  .card-text {
+    font-size: 1.4rem !important;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header {
+    padding: 2rem;
+  }
+  section {
+    padding: 3rem 2rem;
+  }
+  .card-title {
+    font-size: 2rem;
+  }
+  .card-text {
+    font-size: 1.4rem !important;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+    scroll-padding-top: 7rem;
+  }
+  .home .box {
+    padding: 2rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-position: right !important;
+  }
+  .home .box.second {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-position: left !important;
+  }
+  .home .box .content {
+    text-align: center;
+  }
+  .home .box .content span {
+    font-size: 3rem;
+  }
+  .home .box .content h3 {
+    font-size: 4rem;
+  }
+  .footer-links h4 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home .box {
+    background-position: center !important;
+  }
+  .header #menu-btn {
+    display: inline-block;
+  }
+  .header .navbar {
+    position: fixed;
+    top: 0;
+    left: -110%;
+    background: #fff;
+    z-index: 10000;
+    width: 35rem;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .header .navbar.active {
+    left: 0;
+    -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+  }
+  .header .navbar a {
+    margin: 1rem 0;
+    font-size: 3rem;
+  }
+  .header .navbar #nav-close {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+  }
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    display: none;
+  }
+  .accordion p {
+    font-size: 11px;
+  }
+
+  .footer-links {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  .footer-links h4 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .heading {
+    font-size: 3rem;
+  }
+  .content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section-title p {
+    font-size: 1.9rem;
+  }
+  .card-title {
+    font-size: 2.2rem;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+  }
+  .card-text {
+    font-size: 1.3rem;
+  }
+  .our-service .card p {
+    line-height: 24px;
+  }
+  .about .content h3 {
+    font-size: 2.5rem;
+  }
+  .partners-title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 368px) {
+  .about .content h3 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .about .content h3 {
+    font-size: 2.1rem;
+  }
+  .map {
+    width: 400;
+    height: 400;
+  }
+}
