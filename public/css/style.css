@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Segoe UI", sans-serif;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -101,7 +101,6 @@ a {
 }
 
 .navbarlogo {
-  padding-left: 2em;
   height: 44px;
 }
 section {
@@ -126,6 +125,41 @@ h5,
   font-size: 1.5rem;
 }
 
+.heading {
+  font-weight: 900;
+}
+hr {
+  border: 0;
+  border: 2px solid brown;
+}
+
+.col-wrapper {
+  padding: 10px;
+  margin: auto;
+}
+
+.tanggal {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 21px;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.7rem;
+  padding: 8px 24px;
+  background-color: #2f318b;
+  font-family: "Poppins";
+}
+
+.btn:hover {
+  background: #10221b;
+  color: #fff;
+}
+
+/* ================================================= */
+
 .py-5 .align-items-start p {
   font-size: 1.3rem;
   color: #10221b;
@@ -139,7 +173,6 @@ h5,
 
 .section-title {
   text-align: center;
-  padding-bottom: 10px;
 }
 .section-title p {
   font-family: "Poppins";
@@ -158,25 +191,8 @@ h5,
   color: #10221b;
 }
 
-.btn {
-  margin-top: 1rem;
-  display: inline-block;
-  border: 0.2rem solid #10221b;
-  color: #10221b;
-  cursor: pointer;
-  background: none;
-  font-size: 1.7rem;
-  padding: 1rem 3rem;
-}
-
-.btn:hover {
-  background: #10221b;
-  color: #fff;
-}
-
 .heading {
   text-align: center;
-  margin-bottom: 1.5rem;
   font-size: 4rem;
   color: #10221b;
 }
@@ -361,7 +377,7 @@ h5,
   background-position: center !important;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 2rem 9%;
 }
 
@@ -371,19 +387,18 @@ h5,
   justify-content: flex-start;
 }
 
-.home .box .content {
-  width: 50rem;
-}
+/* .home .box .content {
+} */
 
 .home .box .content span {
-  font-size: 4rem;
-  color: #10221b;
-  text-shadow: 6px 4px 5px #ffffff;
+  font-size: 6rem;
+  color: #ffffff;
+  text-shadow: 6px 4px 5px #353434;
 }
 
 .home .box .content h3 {
-  font-size: 6rem;
-  color: #2f318b;
+  font-size: 8rem;
+  color: #ffffff;
   padding-top: 0.5rem;
   text-transform: uppercase;
   text-shadow: 6px 4px 5px #000000;
@@ -391,10 +406,10 @@ h5,
 
 .home .box .content p {
   line-height: 2;
-  color: #10221b;
-  font-size: 1.5rem;
+  color: #ffffff;
+  font-size: 3rem;
   padding: 1rem 0;
-  text-shadow: 6px 4px 5px #ffffff;
+  text-shadow: 6px 4px 5px #000000;
 }
 
 .swiper-button-next::after,

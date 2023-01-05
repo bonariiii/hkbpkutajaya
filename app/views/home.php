@@ -4,39 +4,34 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="box"
-                        style="background: url(http://localhost/HKBP-KUTAJAYA/public/img/home-bg-1.jpg) no-repeat;">
+                        style="background: url(http://localhost/hkbpkutajaya/public/img/home-bg-1.jpg) no-repeat;">
                         <div class="content">
-                            <span>IT Modernization&Digital</span>
-                            <h3>Transformation</h3>
-                            <p>Integrated Hardware, Software, Installation & Maintenance
-                                Services</p>
-                            <a href="solution.php" class="btn">get started</a>
+                            <span>Selamat datang di website resmi</span>
+                            <h3>HKBP KUTAJAYA</h3>
+                            <p>Selamat beribadah, Tuhan Yesus memberkati..</p>
+                            <!-- <a href="solution.php" class="btn">get started</a> -->
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="box second"
-                        style="background: url(http://localhost/HKBP-KUTAJAYA/public/img/home-bg-2.jpg) no-repeat;">
+                    <div class="box "
+                        style="background: url(http://localhost/hkbpkutajaya/public/img/home-bg-2.jpg) no-repeat;">
                         <div class="content">
                             <span>Achieve Your IT </span>
                             <h3>Modernization Goals</h3>
                             <p>Transform Your IT Ecosystem</p>
-                            <a href="solution.php" class="btn">get started</a>
+                            <!-- <a href="solution.php" class="btn">get started</a> -->
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="box"
-                        style="background: url(http://localhost/HKBP-KUTAJAYA/public/img/home-bg-3.jpg) no-repeat;">
+                        style="background: url(http://localhost/hkbpkutajaya/public/img/home-bg-3.jpg) no-repeat;">
                         <div class="content">
                             <span>Over 300 Client Trust</span>
                             <h3>Our Services</h3>
-                            <p>We offer our customer a range of high quality general
-                                mechanical, electrical and instrumentation work for energy
-                                conservation (HVAC) including: System Planning, Installation,
-                                Optimization, Re-Engineering, Feasibility Study, Construction
-                                Management and Maintenance.</p>
-                            <a href="solution.php" class="btn">get started</a>
+                            <p>We offer our cus</p>
+                            <!-- <a href="solution.php" class="btn">get started</a> -->
                         </div>
                     </div>
                 </div>
@@ -50,41 +45,70 @@
 
 
     <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
+    <section id="warta-jemaat" class="">
         <div class="container">
             <div class="section-title section-title1" data-aos="fade-up">
-                <h1 class="heading">About Us</h1>
+                <h1 class="heading">WARTA JEMAAT <br> HKBP KUTAJAYA</h1>
+            </div>
+            <hr>
+            <div class="row content">
+                <div class="col-sm col-wrapper" data-aos="fade-right" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <p class="tanggal">
+                        Minggu, 1 Januari 2023
+                    </p>
+                </div>
+                <div class="col-sm col-wrapper text-center" data-aos="fade-left" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <button type="button" class="btn btn-primary rounded-pill ">Download</button>
+                </div>
             </div>
             <div class="row content">
-                <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-right" data-aos-offset="300"
+                <div class="col-sm col-wrapper" data-aos="fade-right" data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
-                    <p class="text-justify">
-                        MDS is a world class IT Infrastructure and Data Center Solution
-                        Company, providing clients with Smart Solution, Professional
-                        Services, and applicable solutions. MDS solution deliver bright
-                        solutions to make your data “ Secure and Strengthen ” with smart
-                        design, high technology in its development and operational.
+                    <p class="tanggal">
+                        Minggu, 1 Januari 2023
                     </p>
-                    <button type="button" class="btn btn-outline-primary">Read More</button>
                 </div>
-                <div class="col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                    <p class="text-center">
-                        Our Mission / Philosophy:
+                <div class="col-sm col-wrapper text-center" data-aos="fade-left" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <button type="button" class="btn btn-primary rounded-pill ">Download</button>
+                </div>
+            </div>
+            <div class="row content">
+                <div class="col-sm col-wrapper" data-aos="fade-right" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <p class="tanggal">
+                        Minggu, 1 Januari 2023
                     </p>
-                    <ul>
-                        <li>
-                            <i class="ri-check-double-line"></i>
-                            Delivering quality services and solutions that solve customer’s problems with simple yet
-                            effective approach.
-                        </li>
-                        <li>
-                            <i class="ri-check-double-line"></i>
-                            Customer’s satisfaction is our top priority.
-                        </li>
-                        <li>
-                            <i class="ri-check-double-line"></i> Taking pride in all our work
-                        </li>
-                    </ul>
+                </div>
+                <div class="col-sm col-wrapper text-center" data-aos="fade-left" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <button type="button" class="btn btn-primary rounded-pill ">Download</button>
+                </div>
+            </div>
+            <div class="row content">
+                <div class="col-sm col-wrapper" data-aos="fade-right" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <p class="tanggal">
+                        Minggu, 1 Januari 2023
+                    </p>
+                </div>
+                <div class="col-sm col-wrapper text-center" data-aos="fade-left" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <button type="button" class="btn btn-primary rounded-pill ">Download</button>
+                </div>
+            </div>
+            <div class="row content">
+                <div class="col-sm col-wrapper" data-aos="fade-right" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <p class="tanggal">
+                        Minggu, 1 Januari 2023
+                    </p>
+                </div>
+                <div class="col-sm col-wrapper text-center" data-aos="fade-left" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <button type="button" class="btn btn-primary rounded-pill ">Download</button>
                 </div>
             </div>
         </div>
@@ -97,7 +121,7 @@
     <!-- about section starts  -->
     <section class="about" id="about">
         <div class="image" data-aos="zoom-in-up">
-            <img src="http://localhost/HKBP-KUTAJAYA/public/img/about-img.jpg" alt="">
+            <img src="http://localhost/hkbpkutajaya/public/img/about-img.jpg" alt="">
         </div>
         <div class="content">
             <h3 data-aos="fade-up" data-aos-delay="100">excellent services experiences</h3>
@@ -110,7 +134,7 @@
             <div data-aos="fade-up" data-aos-delay="200">
                 <p>Meanwhile, the security of each data center is strictly guaranteed using Access Control Biometric
                     technology, CCTV and trained security personnel.</p>
-                <a href="#" class="btn">read more</a>
+                <a href="#" class="btn">Download</a>
             </div>
         </div>
     </section>
@@ -132,7 +156,7 @@
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
                     <div class="card h-100 icon-box" data-aos="zoom-in" data-aos-delay="100">
-                        <img src="http://localhost/HKBP-KUTAJAYA/public/img/datacenter.jpg" class="card-img-top"
+                        <img src="http://localhost/hkbpkutajaya/public/img/datacenter.jpg" class="card-img-top"
                             alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Data Center Design & Assessment</h5>
@@ -145,7 +169,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 icon-box" data-aos="zoom-in" data-aos-delay="200">
-                        <img src="http://localhost/HKBP-KUTAJAYA/public/img/datacenterconstruction.jpg"
+                        <img src="http://localhost/hkbpkutajaya/public/img/datacenterconstruction.jpg"
                             class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Data Center Construction</h5>
@@ -158,7 +182,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 icon-box" data-aos="zoom-in" data-aos-delay="300">
-                        <img src="http://localhost/HKBP-KUTAJAYA/public/img/cable.jpg" class="card-img-top" alt="...">
+                        <img src="http://localhost/hkbpkutajaya/public/img/cable.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Structured Cabling System</h5>
                             <p class="card-text">MDS is the best choice for being partner in Cabling System Solutions,
@@ -169,7 +193,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 icon-box" data-aos="zoom-in" data-aos-delay="400">
-                        <img src="http://localhost/HKBP-KUTAJAYA/public/img/electrical.jpg" class="card-img-top"
+                        <img src="http://localhost/hkbpkutajaya/public/img/electrical.jpg" class="card-img-top"
                             alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Mechanical/Electrical Development System</h5>

@@ -17,15 +17,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="http://localhost/HKBP-KUTAJAYA/public/css/style.css">
-    <link rel="stylesheet" href="http://localhost/HKBP-KUTAJAYA/public/css/media-queries.css">
+    <link rel="stylesheet" href="http://localhost/hkbpkutajaya/public/css/style.css">
+    <link rel="stylesheet" href="http://localhost/hkbpkutajaya/public/css/media-queries.css">
 </head>
 
 
 <body>
     <!-- header section starts  -->
     <header class="header">
-        <a href="/" class="logo"> <img class="navbarlogo" src="http://localhost/HKBP-KUTAJAYA/public/img/gereja.png"
+        <a href="/" class="logo"> <img class="navbarlogo" src="http://localhost/hkbpkutajaya/public/img/gereja.png"
                 alt=""></i></a>
         <nav class="navbar">
             <div id="nav-close" class="fas fa-times"></div>
