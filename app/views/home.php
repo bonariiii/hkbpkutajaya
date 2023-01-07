@@ -211,121 +211,116 @@
             <div class="section-title section-title1" data-aos="fade-up">
                 <h1 class="heading">JADWAL PELAYANAN</h1>
             </div>
-            <div class="row justify-content-center ">
+            <div class="row tempat-jadwal justify-content-center ">
                 <div class="col-1 border me-4 logo-jadwal">
-
-                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
-                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
-                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                    <img src="http://localhost/hkbpkutajaya/public/img/bi.png" class="img-thumbnail border-0" alt="...">
                 </div>
-                <div class="col-6 border p-3">
+                <div class="col-6 black p-3">
                     <div class="row">
                         <div class="col-4">
                             <h2>IBADAH PAGI</h2>
                             <h3>Setiap Minggu</h3>
                             <h4>Gerejaa HKBP KUTAJAYA</h4>
                         </div>
-                        <div class="col-4">
-                            <h3>Masuk Pukul 08:00</h3>
+                        <div class="col-4 text-center  align-self-center">
+                            <h2> 08:00 WIB</h2>
                         </div>
                         <div class="col-4">
-                            <h1>Gereja Online</h1>
+                            <h2>Gereja Online</h2>
+                            <h3><a href="youtube.com/gerejahkbp">Link Youtube</a></h3>
+                            <h3><a href="youtube.com/gerejahkbp">Link ZOOM</a></h3>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row justify-content-center ">
+            <div class="row tempat-jadwal justify-content-center ">
                 <div class="col-1 border me-4 logo-jadwal">
-
-                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
-                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
-                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                    <img src="http://localhost/hkbpkutajaya/public/img/bi.png" class="img-thumbnail border-0" alt="...">
                 </div>
-                <div class="col-6 border p-3">
+                <div class="col-6 black p-3">
                     <div class="row">
                         <div class="col-4">
-                            <h2>IBADAH PAGI</h2>
+                            <h2>IBADAH SIANG</h2>
                             <h3>Setiap Minggu</h3>
                             <h4>Gerejaa HKBP KUTAJAYA</h4>
                         </div>
-                        <div class="col-4">
-                            <h3>Masuk Pukul 08:00</h3>
+                        <div class="col-4 text-center  align-self-center">
+                            <h2>09:30 WIB</h2>
                         </div>
                         <div class="col-4">
-                            <h1>Gereja Online</h1>
+                            <h2>Gereja Online</h2>
+                            <h3><a href="youtube.com/gerejahkbp">Link Youtube</a></h3>
+                            <h3><a href="youtube.com/gerejahkbp">Link ZOOM</a></h3>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row justify-content-center ">
+            <div class="row tempat-jadwal justify-content-center ">
                 <div class="col-1 border me-4 logo-jadwal">
-
-                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
-                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
-                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                    <img src="http://localhost/hkbpkutajaya/public/img/bi.png" class="img-thumbnail border-0" alt="...">
                 </div>
-                <div class="col-6 border p-3">
+                <div class="col-6 black p-3">
                     <div class="row">
                         <div class="col-4">
-                            <h2>IBADAH PAGI</h2>
+                            <h2>IBADAH SORE</h2>
                             <h3>Setiap Minggu</h3>
                             <h4>Gerejaa HKBP KUTAJAYA</h4>
                         </div>
-                        <div class="col-4">
-                            <h3>Masuk Pukul 08:00</h3>
+                        <div class="col-4 text-center  align-self-center">
+                            <h2>17:00 WIB</h2>
                         </div>
                         <div class="col-4">
-                            <h1>Gereja Online</h1>
+                            <h2>Gereja Online</h2>
+                            <h3><a href="youtube.com/gerejahkbp">Link Youtube</a></h3>
+                            <h3><a href="youtube.com/gerejahkbp">Link ZOOM</a></h3>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row justify-content-center ">
+            <div class="row tempat-jadwal justify-content-center ">
                 <div class="col-1 border me-4 logo-jadwal">
-
-                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
-                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
-                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                    <img src="http://localhost/hkbpkutajaya/public/img/bi.png" class="img-thumbnail border-0" alt="...">
                 </div>
-                <div class="col-6 border p-3">
+                <div class="col-6 black p-3">
                     <div class="row">
                         <div class="col-4">
-                            <h2>IBADAH PAGI</h2>
+                            <h2>SEKOLAH MINGGU</h2>
                             <h3>Setiap Minggu</h3>
-                            <h4>Gerejaa HKBP KUTAJAYA</h4>
+                            <h4>RUANG SEKOLAH MINGGU</h4>
+                        </div>
+                        <div class="col-4 text-center  align-self-center">
+                            <h2>08:00 WIB</h3>
                         </div>
                         <div class="col-4">
-                            <h3>Masuk Pukul 08:00</h3>
-                        </div>
-                        <div class="col-4">
-                            <h1>Gereja Online</h1>
+                            <h2>Gereja Online</h2>
+                            <h3><a href="youtube.com/gerejahkbp">Link Youtube</a></h3>
+                            <h3><a href="youtube.com/gerejahkbp">Link ZOOM</a></h3>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row justify-content-center ">
+            <div class="row tempat-jadwal justify-content-center ">
                 <div class="col-1 border me-4 logo-jadwal">
-
-                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
-                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
-                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                    <img src="http://localhost/hkbpkutajaya/public/img/bi.png" class="img-thumbnail border-0" alt="...">
                 </div>
-                <div class="col-6 border p-3">
+                <div class="col-6 black p-3">
                     <div class="row">
                         <div class="col-4">
-                            <h2>IBADAH PAGI</h2>
-                            <h3>Setiap Minggu</h3>
+                            <h2>IBADAH NAPOSO</h2>
+                            <h3>Setiap Sabtu</h3>
                             <h4>Gerejaa HKBP KUTAJAYA</h4>
                         </div>
-                        <div class="col-4">
-                            <h3>Masuk Pukul 08:00</h3>
+                        <div class="col-4 text-center  align-self-center">
+                            <h2>20:00 WIB</h2>
                         </div>
                         <div class="col-4">
-                            <h1>Gereja Online</h1>
+                            <h2>Gereja Online</h2>
+                            <h3><a href="youtube.com/gerejahkbp">Link Youtube</a></h3>
+                            <h3><a href="youtube.com/gerejahkbp">Link ZOOM</a></h3>
                         </div>
                     </div>
                 </div>

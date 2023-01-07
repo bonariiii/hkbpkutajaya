@@ -3,9 +3,10 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
-                    <h4>Join Our Newsletter</h4>
+                    <h4>BULETIN</h4>
                     <p>
-                        Let's Keep in touch for our new information that you need
+                        Dapatkan informasi, renungan, dan pengumuman terupdate dari HKBP Kasih Prabumulih di email anda
+                        dengan berlangganan disini.
                     </p>
                     <form action="" method="post">
                         <input type="email" name="email"><input type="submit" value="Subscribe">
@@ -20,7 +21,8 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 footer-contact">
                     <h3>
-                        <a href="index.html"><img src="assets/img/logomds9.png" alt=""></a>
+                        <a href="index.html"><img src="http://localhost/hkbpkutajaya/public/img/footerlogo2.png"
+                                alt=""></a>
                     </h3>
                     <p>
                         Kompleks Ruko Buana Subur Blok E No. 11, Jl. Raya Ps. Kemis No.KM 3.5, Gelam Jaya, Pasar Kemis,
@@ -34,51 +36,40 @@
                     <h4>Links</h4>
                     <ul>
                         <li>
-                            <i class="bx bx-chevron-right"></i> <a href="home.php">Home</a>
+                            <i class="bx bx-chevron-right"></i> <a href="home.php">Beranda</a>
                         </li>
                         <li>
-                            <i class="bx bx-chevron-right"></i> <a href="about.php">About Us</a>
+                            <i class="bx bx-chevron-right"></i> <a href="about.php">Pelayanan</a>
                         </li>
                         <li>
-                            <i class="bx bx-chevron-right"></i> <a href="solutions.php">Solutions</a>
+                            <i class="bx bx-chevron-right"></i> <a href="solutions.php">Warta</a>
                         </li>
                         <li>
-                            <i class="bx bx-chevron-right"></i> <a href="clients.php">Clients</a>
+                            <i class="bx bx-chevron-right"></i> <a href="clients.php">Organisasi</a>
                         </li>
                         <li>
-                            <i class="bx bx-chevron-right"></i> <a href="team.php">Our Expert Team</a>
+                            <i class="bx bx-chevron-right"></i> <a href="team.php">Dokumentasi</a>
                         </li>
                         <li>
-                            <i class="bx bx-chevron-right"></i> <a href="contact.php">Contact Us</a>
-                        </li>
-                        <li>
-                            <i class="bx bx-chevron-right"></i> <a href="simulation.php">Simulation</a>
+                            <i class="bx bx-chevron-right"></i> <a href="contact.php">Tentang Kami</a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Our Services</h4>
+                    <h4>Dewan</h4>
                     <ul>
                         <li>
                             <i class="bx bx-chevron-right"></i>
-                            <a href="solution.php">IT Infrastruktur</a>
+                            <a href="solution.php">Dewan Koinonia</a>
                         </li>
                         <li>
                             <i class="bx bx-chevron-right"></i>
-                            <a href="solution.php">Data Center Design &amp; Assessment</a>
+                            <a href="solution.php">Dewan Diakonia</a>
                         </li>
                         <li>
                             <i class="bx bx-chevron-right"></i>
-                            <a href="solution.php">Data Center Construction</a>
-                        </li>
-                        <li>
-                            <i class="bx bx-chevron-right"></i>
-                            <a href="solution.php">Structured Cabling System</a>
-                        </li>
-                        <li>
-                            <i class="bx bx-chevron-right"></i>
-                            <a href="solution.php">Mechanical/Electrical Development System</a>
+                            <a href="solution.php">Dewan Marturia</a>
                         </li>
                     </ul>
                 </div>

@@ -161,6 +161,20 @@
   .footer-links h4 {
     font-size: 20px;
   }
+  #footer .footer-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #footer .copyright,
+  #footer .credits {
+    text-align: center;
+    float: none;
+  }
+
+  #footer .credits {
+    padding-top: 4px;
+  }
 }
 
 @media (max-width: 450px) {
