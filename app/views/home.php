@@ -1,5 +1,5 @@
     <!-- Swipper section starts  -->
-    <section class="home" id="home">
+    <section class="slider" id="slider">
         <div class="swiper home-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -45,7 +45,7 @@
 
 
     <!-- ======= About Us Section ======= -->
-    <section id="warta-jemaat" class="">
+    <section id="warta-jemaat" class="warta-jemaat">
         <div class="container">
             <div class="section-title section-title1" data-aos="fade-up">
                 <h1 class="heading">WARTA JEMAAT <br> HKBP KUTAJAYA</h1>
@@ -144,63 +144,188 @@
 
 
     <!-- Our Services -->
-    <section class="our-services">
+    <!-- <section class="our-services">
         <div class="container">
             <div class="section-title section-title1" data-aos="fade-up">
-                <h1 class="heading">Our Services</h1>
+                <h1 class="heading">JADWAL PELAYANAN</h1>
                 <p>
                     MDS solution deliver bright solutions to make your data and system “Secure and Strengthen” with
                     smart design, high technology in its development and operational.
                 </p>
             </div>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col">
-                    <div class="card h-100 icon-box" data-aos="zoom-in" data-aos-delay="100">
-                        <img src="http://localhost/hkbpkutajaya/public/img/datacenter.jpg" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Data Center Design & Assessment</h5>
-                            <p class="card-text">MDS offers a comprehensive array of facility and support infrastructure
-                                design and assessment services aimed at providing clients with recommendations that save
-                                money, reduce the time spent implementing upgrades and improvements, and maximize the
-                                availability of data centers, computer rooms, and other mission critical facilities.</p>
+            <div class="col-12">
+                <div class="card h-100 icon-box" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="http://localhost/hkbpkutajaya/public/img/datacenter.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Center Design & Assessment</h5>
+                        <p class="card-text">MDS offers a comprehensive array of facility and support infrastructure
+                            design and assessment services aimed at providing clients with recommendations that save
+                            money, reduce the time spent implementing upgrades and improvements, and maximize the
+                            availability of data centers, computer rooms, and other mission critical facilities.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card h-100 icon-box" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="http://localhost/hkbpkutajaya/public/img/datacenterconstruction.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Center Construction</h5>
+                        <p class="card-text">MDS is an Data Center infrastructure solutions provider specializing in
+                            highly available, scalable, redundant and manageable, turnkey solutions for IT
+                            environments
+                            from utility-to-desktop.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 icon-box" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="http://localhost/hkbpkutajaya/public/img/cable.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Structured Cabling System</h5>
+                        <p class="card-text">MDS is the best choice for being partner in Cabling System Solutions,
+                            design, implementation, and maintenance. We provide professional service especially in
+                            Enterprise solution in Structured Data Cabling System.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 icon-box" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="http://localhost/hkbpkutajaya/public/img/electrical.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mechanical/Electrical Development System</h5>
+                        <p class="card-text">We offer our customer a range of high quality general mechanical,
+                            electrical and instrumentation work for energy conservation (HVAC) including: System
+                            Planning, Installation, Optimization, Re-Engineering, Feasibility Study, Construction
+                            Management and Maintenance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section> -->
+
+
+    <section class="our-service">
+        <div class="container">
+            <div class="section-title section-title1" data-aos="fade-up">
+                <h1 class="heading">JADWAL PELAYANAN</h1>
+            </div>
+            <div class="row justify-content-center ">
+                <div class="col-1 border me-4 logo-jadwal">
+
+                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                </div>
+                <div class="col-6 border p-3">
+                    <div class="row">
+                        <div class="col-4">
+                            <h2>IBADAH PAGI</h2>
+                            <h3>Setiap Minggu</h3>
+                            <h4>Gerejaa HKBP KUTAJAYA</h4>
+                        </div>
+                        <div class="col-4">
+                            <h3>Masuk Pukul 08:00</h3>
+                        </div>
+                        <div class="col-4">
+                            <h1>Gereja Online</h1>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100 icon-box" data-aos="zoom-in" data-aos-delay="200">
-                        <img src="http://localhost/hkbpkutajaya/public/img/datacenterconstruction.jpg"
-                            class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Data Center Construction</h5>
-                            <p class="card-text">MDS is an Data Center infrastructure solutions provider specializing in
-                                highly available, scalable, redundant and manageable, turnkey solutions for IT
-                                environments
-                                from utility-to-desktop.</p>
+            </div>
+
+            <div class="row justify-content-center ">
+                <div class="col-1 border me-4 logo-jadwal">
+
+                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                </div>
+                <div class="col-6 border p-3">
+                    <div class="row">
+                        <div class="col-4">
+                            <h2>IBADAH PAGI</h2>
+                            <h3>Setiap Minggu</h3>
+                            <h4>Gerejaa HKBP KUTAJAYA</h4>
+                        </div>
+                        <div class="col-4">
+                            <h3>Masuk Pukul 08:00</h3>
+                        </div>
+                        <div class="col-4">
+                            <h1>Gereja Online</h1>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100 icon-box" data-aos="zoom-in" data-aos-delay="300">
-                        <img src="http://localhost/hkbpkutajaya/public/img/cable.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Structured Cabling System</h5>
-                            <p class="card-text">MDS is the best choice for being partner in Cabling System Solutions,
-                                design, implementation, and maintenance. We provide professional service especially in
-                                Enterprise solution in Structured Data Cabling System.</p>
+            </div>
+
+            <div class="row justify-content-center ">
+                <div class="col-1 border me-4 logo-jadwal">
+
+                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                </div>
+                <div class="col-6 border p-3">
+                    <div class="row">
+                        <div class="col-4">
+                            <h2>IBADAH PAGI</h2>
+                            <h3>Setiap Minggu</h3>
+                            <h4>Gerejaa HKBP KUTAJAYA</h4>
+                        </div>
+                        <div class="col-4">
+                            <h3>Masuk Pukul 08:00</h3>
+                        </div>
+                        <div class="col-4">
+                            <h1>Gereja Online</h1>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100 icon-box" data-aos="zoom-in" data-aos-delay="400">
-                        <img src="http://localhost/hkbpkutajaya/public/img/electrical.jpg" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Mechanical/Electrical Development System</h5>
-                            <p class="card-text">We offer our customer a range of high quality general mechanical,
-                                electrical and instrumentation work for energy conservation (HVAC) including: System
-                                Planning, Installation, Optimization, Re-Engineering, Feasibility Study, Construction
-                                Management and Maintenance.</p>
+            </div>
+
+            <div class="row justify-content-center ">
+                <div class="col-1 border me-4 logo-jadwal">
+
+                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                </div>
+                <div class="col-6 border p-3">
+                    <div class="row">
+                        <div class="col-4">
+                            <h2>IBADAH PAGI</h2>
+                            <h3>Setiap Minggu</h3>
+                            <h4>Gerejaa HKBP KUTAJAYA</h4>
+                        </div>
+                        <div class="col-4">
+                            <h3>Masuk Pukul 08:00</h3>
+                        </div>
+                        <div class="col-4">
+                            <h1>Gereja Online</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center ">
+                <div class="col-1 border me-4 logo-jadwal">
+
+                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                    <p>dsfsfsdfsdfsdfsdfsdaf</p>
+                </div>
+                <div class="col-6 border p-3">
+                    <div class="row">
+                        <div class="col-4">
+                            <h2>IBADAH PAGI</h2>
+                            <h3>Setiap Minggu</h3>
+                            <h4>Gerejaa HKBP KUTAJAYA</h4>
+                        </div>
+                        <div class="col-4">
+                            <h3>Masuk Pukul 08:00</h3>
+                        </div>
+                        <div class="col-4">
+                            <h1>Gereja Online</h1>
                         </div>
                     </div>
                 </div>
