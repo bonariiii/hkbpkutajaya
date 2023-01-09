@@ -212,10 +212,10 @@
                 <h1 class="heading">JADWAL PELAYANAN</h1>
             </div>
             <div class="row tempat-jadwal justify-content-center ">
-                <div class="col-1 border me-4 logo-jadwal">
+                <div class="col-sm-1 align-self-center me-4" id="logo-pelayanan">
                     <img src="http://localhost/hkbpkutajaya/public/img/bi.png" class="img-thumbnail border-0" alt="...">
                 </div>
-                <div class="col-6 black p-3">
+                <div class="col-sm-6 black p-3">
                     <div class="row">
                         <div class="col-4">
                             <h2>IBADAH PAGI</h2>
@@ -235,10 +235,10 @@
             </div>
 
             <div class="row tempat-jadwal justify-content-center ">
-                <div class="col-1 border me-4 logo-jadwal">
+                <div class="col-1 tes align-self-center me-4 ">
                     <img src="http://localhost/hkbpkutajaya/public/img/bi.png" class="img-thumbnail border-0" alt="...">
                 </div>
-                <div class="col-6 black p-3">
+                <div class="col-sm-6 black p-3">
                     <div class="row">
                         <div class="col-4">
                             <h2>IBADAH SIANG</h2>
@@ -258,10 +258,10 @@
             </div>
 
             <div class="row tempat-jadwal justify-content-center ">
-                <div class="col-1 border me-4 logo-jadwal">
+                <div class="col-1 tes align-self-center me-4 ">
                     <img src="http://localhost/hkbpkutajaya/public/img/bi.png" class="img-thumbnail border-0" alt="...">
                 </div>
-                <div class="col-6 black p-3">
+                <div class="col-sm-6 black p-3">
                     <div class="row">
                         <div class="col-4">
                             <h2>IBADAH SORE</h2>
@@ -281,10 +281,10 @@
             </div>
 
             <div class="row tempat-jadwal justify-content-center ">
-                <div class="col-1 border me-4 logo-jadwal">
+                <div class="col-1 tes align-self-center me-4 ">
                     <img src="http://localhost/hkbpkutajaya/public/img/bi.png" class="img-thumbnail border-0" alt="...">
                 </div>
-                <div class="col-6 black p-3">
+                <div class="col-sm-6 black p-3">
                     <div class="row">
                         <div class="col-4">
                             <h2>SEKOLAH MINGGU</h2>
@@ -304,10 +304,10 @@
             </div>
 
             <div class="row tempat-jadwal justify-content-center ">
-                <div class="col-1 border me-4 logo-jadwal">
+                <div class="col-1 tes align-self-center me-4 ">
                     <img src="http://localhost/hkbpkutajaya/public/img/bi.png" class="img-thumbnail border-0" alt="...">
                 </div>
-                <div class="col-6 black p-3">
+                <div class="col-sm-6 black p-3">
                     <div class="row">
                         <div class="col-4">
                             <h2>IBADAH NAPOSO</h2>

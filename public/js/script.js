@@ -140,3 +140,28 @@ window.addEventListener("load", () => {
     once: true,
   });
 });
+
+// pelayanan
+// jQuery(document).resize(function () {
+//   var screen = $(window)
+//    if (screen.width < 426) {
+//     $(".class2").hide();
+//   }
+//      else {
+//        $(".class2").show();
+//       }
+//   });
+
+$(window).on("resize load", function () {
+  if ($(window).width() <= 452) {
+    $("#logo-pelayanan").removeClass("col-sm-1 align-self-center me-4");
+    $("#logo-pelayanan").addClass("text-center img-pelayanan");
+  }
+});
+
+$(window).on("resize load", function () {
+  if ($(window).width() > 452) {
+    $("#logo-pelayanan").removeClass("text-center img-pelayanan");
+    $("#logo-pelayanan").addClass("col-sm-1 align-self-center me-4");
+  }
+});

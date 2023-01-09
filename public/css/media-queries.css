@@ -178,6 +178,9 @@
 }
 
 @media (max-width: 450px) {
+  .navbarlogo {
+    height: 37px;
+  }
   html {
     font-size: 50%;
   }
@@ -209,20 +212,35 @@
   .partners-title {
     text-align: center;
   }
+  .tes {
+    display: none;
+  }
 }
 
 @media (max-width: 368px) {
   .about .content h3 {
     font-size: 2.4rem;
   }
+  .header .logo {
+    margin-right: 0;
+  }
+  .tes {
+    display: none;
+  }
 }
 
 @media (max-width: 320px) {
+  .navbarlogo {
+    height: 37px;
+  }
   .about .content h3 {
     font-size: 2.1rem;
   }
   .map {
     width: 400;
     height: 400;
+  }
+  .tes {
+    display: none;
   }
 }

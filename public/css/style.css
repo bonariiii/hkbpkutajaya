@@ -48,7 +48,7 @@ a {
 
 .our-services .icon-box h4 {
   font-size: 18px;
-  color: #2f318b;
+  color: #1e3a76;
 }
 .our-services .icon-box p {
   font-size: 14px;
@@ -66,8 +66,8 @@ a {
 }
 .php-email-form {
   width: 100%;
-  border-top: 3px solid #2f318b;
-  border-bottom: 3px solid #2f318b;
+  border-top: 3px solid #1e3a76;
+  border-bottom: 3px solid #1e3a76;
   padding: 30px;
 }
 .php-email-form .form-group {
@@ -89,8 +89,8 @@ a {
 
 .info {
   width: 100%;
-  border-top: 3px solid #2f318b;
-  border-bottom: 3px solid #2f318b;
+  border-top: 3px solid #1e3a76;
+  border-bottom: 3px solid #1e3a76;
   padding: 30px;
 }
 
@@ -149,17 +149,13 @@ hr {
   cursor: pointer;
   font-size: 1.7rem;
   padding: 8px 24px;
-  background-color: #2f318b;
+  background-color: #1e3a76;
   font-family: "Poppins";
 }
 
 .btn:hover {
   background: #10221b;
   color: #fff;
-}
-
-.logo-jadwal {
-  background-color: #2f318b;
 }
 
 .tempat-jadwal {
@@ -180,6 +176,10 @@ hr {
   border: solid black 2px;
 }
 
+.img-pelayanan {
+  width: 50% !important;
+  padding-bottom: 10px;
+}
 /* ======================================================================================================== */
 
 /*--------------------------------------------------------------
@@ -187,7 +187,7 @@ hr {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #2f318b;
+  background: #1e3a76;
 }
 
 #footer .footer-newsletter {
@@ -204,7 +204,7 @@ hr {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #2f318b;
+  color: #1e3a76;
 }
 
 #footer .footer-newsletter form {
@@ -259,7 +259,7 @@ hr {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #2f318b;
+  color: #1e3a76;
 }
 
 #footer .footer-top .footer-contact p {
@@ -273,7 +273,7 @@ hr {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #2f318b;
+  color: #1e3a76;
   position: relative;
   padding-bottom: 12px;
 }
@@ -427,7 +427,7 @@ fsdfasdfdsfs
 }
 
 .header .logo i {
-  color: #2f318b;
+  color: #1e3a76;
 }
 
 .header .navbar a {
@@ -437,7 +437,7 @@ fsdfasdfdsfs
 }
 
 .header .navbar a:hover {
-  color: #2f318b;
+  color: #1e3a76;
 }
 
 .header .navbar #nav-close {
@@ -457,7 +457,7 @@ fsdfasdfdsfs
 
 .header .icons a:hover,
 .header .icons div:hover {
-  color: #2f318b;
+  color: #1e3a76;
 }
 
 .header #menu-btn {
@@ -500,7 +500,7 @@ fsdfasdfdsfs
 }
 
 .search-form #close-search:hover {
-  color: #2f318b;
+  color: #1e3a76;
 }
 
 .search-form form {
@@ -548,7 +548,7 @@ fsdfasdfdsfs
 }
 
 .search-form form label:hover {
-  color: #2f318b;
+  color: #1e3a76;
 }
 
 .no-index-box {
@@ -641,7 +641,7 @@ fsdfasdfdsfs
 
 .category .box-container .box h3 {
   font-size: 2rem;
-  color: #2f318b;
+  color: #1e3a76;
 }
 
 .category .box-container .box p {
@@ -670,7 +670,7 @@ fsdfasdfdsfs
 .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2f318b;
+  background: #1e3a76;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -708,7 +708,7 @@ fsdfasdfdsfs
 
 .footer-links ul i {
   padding-right: 2px;
-  color: #2f318b;
+  color: #1e3a76;
   font-size: 18px;
   line-height: 1;
 }
@@ -728,7 +728,7 @@ fsdfasdfdsfs
 
 .accordion .accordion-button:not(.collapsed) {
   color: #ffffff;
-  background: #2f318b;
+  background: #1e3a76;
   box-shadow: 1px 2px 6px #767878;
 }
 
@@ -759,7 +759,7 @@ fsdfasdfdsfs
 
 .about .content h3 {
   font-size: 3rem;
-  color: #2f318b;
+  color: #1e3a76;
 }
 
 .about .content p {
@@ -814,7 +814,7 @@ fsdfasdfdsfs
 }
 
 .shop .slide .image .icons a:hover {
-  background: #2f318b;
+  background: #1e3a76;
 }
 
 .shop .slide .content {
@@ -831,7 +831,7 @@ fsdfasdfdsfs
   padding: 1rem 0;
   padding-top: 0.5rem;
   font-size: 2rem;
-  color: #2f318b;
+  color: #1e3a76;
 }
 
 .shop .slide .content .stars i {
@@ -911,7 +911,7 @@ fsdfasdfdsfs
 
 .packages .box-container .box .content .price {
   font-size: 2rem;
-  color: #2f318b;
+  color: #1e3a76;
 }
 
 .services .box-container {
@@ -960,7 +960,7 @@ fsdfasdfdsfs
 
 .services .box-container .box h3 {
   font-size: 2rem;
-  color: #2f318b;
+  color: #1e3a76;
 }
 
 .services .box-container .box p {
@@ -1017,7 +1017,7 @@ fsdfasdfdsfs
 }
 
 .reviews .slide .user span {
-  color: #2f318b;
+  color: #1e3a76;
   font-size: 1.5rem;
 }
 
@@ -1050,12 +1050,12 @@ fsdfasdfdsfs
 }
 
 .blogs .slide .icons a:hover {
-  color: #2f318b;
+  color: #1e3a76;
 }
 
 .blogs .slide .icons a i {
   padding-right: 0.5rem;
-  color: #2f318b;
+  color: #1e3a76;
 }
 
 .blogs .slide h3 {
@@ -1164,12 +1164,12 @@ fsdfasdfdsfs
 }
 
 .footer .box-container .box a i {
-  color: #2f318b;
+  color: #1e3a76;
   padding-right: 0.5rem;
 }
 
 .footer .box-container .box a:hover {
-  color: #2f318b;
+  color: #1e3a76;
 }
 
 .footer .box-container .box a:hover i {
@@ -1186,7 +1186,7 @@ fsdfasdfdsfs
 }
 
 .footer .credit span {
-  color: #2f318b;
+  color: #1e3a76;
 }
 
 /*# sourceMappingURL=style.css.map */
