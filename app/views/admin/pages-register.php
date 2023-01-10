@@ -16,38 +16,35 @@
                         <div class="card mb-3">
 
                             <div class="card-body">
-
                                 <div class="pt-4 pb-2">
                                     <h5 class="card-title text-center pb-0 fs-4">Create an Account</h5>
                                     <p class="text-center small">Enter your personal details to create account</p>
                                 </div>
 
-                                <form class="row g-3 needs-validation" novalidate>
+                                <form action="<?= BASEURL; ?>/registrasi/tambah" method="post"
+                                    class="row g-3 needs-validation" novalidate>
                                     <div class="col-12">
-                                        <label for="yourName" class="form-label">Your Name</label>
-                                        <input type="text" name="name" class="form-control" id="yourName" required>
+                                        <label for="name" class="form-label">Nama</label>
+                                        <input type="text" name="nama" class="form-control" id="nama" required>
                                         <div class="invalid-feedback">Please, enter your name!</div>
                                     </div>
 
                                     <div class="col-12">
-                                        <label for="yourEmail" class="form-label">Your Email</label>
-                                        <input type="email" name="email" class="form-control" id="yourEmail" required>
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" name="email" class="form-control" id="email" required>
                                         <div class="invalid-feedback">Please enter a valid Email adddress!</div>
                                     </div>
 
                                     <div class="col-12">
-                                        <label for="yourUsername" class="form-label">Username</label>
-                                        <div class="input-group has-validation">
-                                            <span class="input-group-text" id="inputGroupPrepend">@</span>
-                                            <input type="text" name="username" class="form-control" id="yourUsername"
-                                                required>
-                                            <div class="invalid-feedback">Please choose a username.</div>
-                                        </div>
+                                        <label for="password" class="form-label">Password</label>
+                                        <input type="password" name="password" class="form-control" id="password"
+                                            required>
+                                        <div class="invalid-feedback">Please enter your password!</div>
                                     </div>
 
                                     <div class="col-12">
-                                        <label for="yourPassword" class="form-label">Password</label>
-                                        <input type="password" name="password" class="form-control" id="yourPassword"
+                                        <label for="password2" class="form-label">Ulangi Password</label>
+                                        <input type="password" name="password2" class="form-control" id="password2"
                                             required>
                                         <div class="invalid-feedback">Please enter your password!</div>
                                     </div>
