@@ -3,8 +3,8 @@
 class Registrasi extends Controller {
     public function index()
     {   
-        
-        $this->view('admin/header/header');
+        $data['title']="Registrasi";
+        $this->view('admin/header/header',$data);
         $this->view('admin/pages-register');
         $this->view('admin/footer/footer');
     }

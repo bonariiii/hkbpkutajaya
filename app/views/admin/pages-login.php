@@ -22,20 +22,20 @@
                                     <p class="text-center small">Enter your username & password to login</p>
                                 </div>
 
-                                <form class="row g-3 needs-validation" novalidate>
+                                <form action="<?= BASEURL; ?>login/auth" method="post" class="row g-3 needs-validation"
+                                    novalidate>
 
                                     <div class="col-12">
-                                        <label for="yourUsername" class="form-label">Username</label>
+                                        <label for="nama" class="form-label">nama</label>
                                         <div class="input-group has-validation">
-                                            <input type="text" name="username" class="form-control" id="yourUsername"
-                                                required>
+                                            <input type="text" name="nama" class="form-control" id="nama" required>
                                             <div class="invalid-feedback">Please enter your username.</div>
                                         </div>
                                     </div>
 
                                     <div class="col-12">
-                                        <label for="yourPassword" class="form-label">Password</label>
-                                        <input type="password" name="password" class="form-control" id="yourPassword"
+                                        <label for="password" class="form-label">Password</label>
+                                        <input type="password" name="password" class="form-control" id="password"
                                             required>
                                         <div class="invalid-feedback">Please enter your password!</div>
                                     </div>

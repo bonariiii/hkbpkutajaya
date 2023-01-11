@@ -14,7 +14,7 @@ class Admin_model {
         $queryceknama = "SELECT COUNT(*) AS num FROM admin WHERE nama = :nama";
         //prepare pdonya
         $this->db->query($queryceknama);
-        $this->db->bind('nama', $data['nama']);
+        $this->db->bind('nama', $data['nama']); 
         //eksekusi
         $this->db->execute();
         //ambil barisnya
@@ -25,9 +25,7 @@ class Admin_model {
             die();
         } else {
 
-
-
-        $password = password_hash($data['password'], PASSWORD_BCRYPT);
+        $password = password_hash($data['password'], PASSWORD_DEFAULT);
         $query = "INSERT INTO admin VALUES ('', :nama, :email, :password)";
 
         $this->db->query($query);
