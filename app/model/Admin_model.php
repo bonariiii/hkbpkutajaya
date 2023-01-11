@@ -10,21 +10,18 @@ class Admin_model {
     public function tambahAdmin($data)
     {   
 
-        //buat querynya
+        //cek nama apakah nama sudah ada dalam database jika ada maka kembalikan nilai false
         $queryceknama = "SELECT COUNT(*) AS num FROM admin WHERE nama = :nama";
-        //prepare pdonya
         $this->db->query($queryceknama);
         $this->db->bind('nama', $data['nama']); 
-        //eksekusi
         $this->db->execute();
-        //ambil barisnya
         $row = $this->db->single();
-        //jika barisnya lebih besar dari 0 maka nama sudah digunakan 
         if ($row['num'] > 0) {
             return false;
             die();
         } else {
 
+        //jika belum ada namanya dalam database maka lanjutkan proses registrasi
         $password = password_hash($data['password'], PASSWORD_DEFAULT);
         $query = "INSERT INTO admin VALUES ('', :nama, :email, :password)";
 
