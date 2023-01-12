@@ -35,7 +35,7 @@
             <a href="">Organisasi</a>
             <a href="">Dokumentasi</a>
             <a href="">Tentang Kami</a>
-            <a href="">Login</a>
+            <a href="http://localhost/hkbpkutajaya/login">Login</a>
         </nav>
         <div class="icons">
             <div id="menu-btn" class="fas fa-bars"></div>

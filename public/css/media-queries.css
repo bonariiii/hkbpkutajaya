@@ -177,6 +177,9 @@
   }
 }
 
+/* ========================
+      MOBILE MEDIA
+===========================*/
 @media (max-width: 450px) {
   .navbarlogo {
     height: 37px;
@@ -242,5 +245,36 @@
   }
   .tes {
     display: none;
+  }
+  .jp-1 h2 {
+    font-size: 25px !important;
+    text-align: center;
+  }
+  .jp-1 h3 {
+    font-size: 20px !important;
+    text-align: center;
+    font-style: italic;
+  }
+  .jp-1 h4 {
+    font-size: 18px !important;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .jp-2 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  .jp-2 h2 {
+    font-size: 18px !important;
+  }
+
+  .jp-3 h2 {
+    font-size: 20px !important;
+    text-align: center;
+  }
+  .jp-3 h3 {
+    font-size: 15px !important;
+    text-align: center;
   }
 }
