@@ -17,7 +17,7 @@ class Admin_model {
         $this->db->execute();
         $row = $this->db->single();
         if ($row['num'] > 0) {
-            return false;
+            return "nama sudah digunakan";
             die();
         } else {
 
@@ -32,7 +32,16 @@ class Admin_model {
         $this->db->execute();
         return $this->db->rowCount();
     }
-}
+    }
+
+    public function getAllJemaat()
+    {
+        //DATE_FORMAT(FROM_DAYS(DATEDIFF(NOW(), jemaat.tanggal_lahir)), '%Y') + 0 AS umur
+        $query = "SELECT jemaat.nama_jemaat, DATE_FORMAT(FROM_DAYS(DATEDIFF(NOW(), jemaat.tanggal_lahir)), '%Y') + 0 AS umur, jemaat.alamat_jemaat, wijk.nama_wijk, jemaat.jenis_kelamin, jemaat.status_menikah FROM jemaat INNER JOIN wijk ON jemaat.wijk = wijk.id_wijk";
+        $this->db->query($query);
+        $this->db->execute();
+        return $this->db->resultSet();
+    }
 
 
 }

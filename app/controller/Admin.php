@@ -11,6 +11,7 @@ class Admin extends Controller {
         }else {
             $data['title'] = "Halaman Admin";
             $this->view('admin/header/header', $data);
+            $this->view('admin/sidebar/sidebar');
             $this->view('admin/index');
             $this->view('admin/footer/footer');
         }
@@ -24,9 +25,12 @@ class Admin extends Controller {
             $this->view('admin/footer/footer');
         }else {
             $data['title'] = "Data Jemaat";
+            $data['jemaat'] = $this->model('Admin_model')->getAllJemaat();
             $this->view('admin/header/header', $data);
-            $this->view('admin/datajemaat');
+            $this->view('admin/sidebar/sidebar');
+            $this->view('admin/datajemaat', $data);
             $this->view('admin/footer/footer');
+            // var_dump($data['jemaat']);
         }
     }
 
@@ -40,6 +44,7 @@ class Admin extends Controller {
         }else {
             $data['title'] = "Data Jemaat";
             $this->view('admin/header/header', $data);
+            $this->view('admin/sidebar/sidebar');
             $this->view('admin/datapendeta');
             $this->view('admin/footer/footer');
         }
@@ -55,6 +60,7 @@ class Admin extends Controller {
         }else {
             $data['title'] = "Data Jemaat";
             $this->view('admin/header/header', $data);
+            $this->view('admin/sidebar/sidebar');
             $this->view('admin/datapengurus');
             $this->view('admin/footer/footer');
         }
