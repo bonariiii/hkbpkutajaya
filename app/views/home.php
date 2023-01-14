@@ -17,9 +17,9 @@
                     <div class="box "
                         style="background: url(http://localhost/hkbpkutajaya/public/img/home-bg-2.jpg) no-repeat;">
                         <div class="content">
-                            <span>Achieve Your IT </span>
-                            <h3>Modernization Goals</h3>
-                            <p>Transform Your IT Ecosystem</p>
+                            <span>Selamat datang di website resmi</span>
+                            <h3>HKBP KUTAJAYA</h3>
+                            <p>Selamat beribadah, Tuhan Yesus memberkati..</p>
                             <!-- <a href="solution.php" class="btn">get started</a> -->
                         </div>
                     </div>
@@ -28,9 +28,9 @@
                     <div class="box"
                         style="background: url(http://localhost/hkbpkutajaya/public/img/home-bg-3.jpg) no-repeat;">
                         <div class="content">
-                            <span>Over 300 Client Trust</span>
-                            <h3>Our Services</h3>
-                            <p>We offer our cus</p>
+                            <span>Selamat datang di website resmi</span>
+                            <h3>HKBP KUTAJAYA</h3>
+                            <p>Selamat beribadah, Tuhan Yesus memberkati..</p>
                             <!-- <a href="solution.php" class="btn">get started</a> -->
                         </div>
                     </div>
@@ -59,14 +59,15 @@
                 </div>
                 <div class="col-sm col-wrapper text-center" data-aos="fade-left" data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
-                    <button type="button" class="btn btn-primary rounded-pill ">Download</button>
+                    <a href="https://drive.google.com/file/d/1v_yOtUmkGrwQHuAIjMivBPA6EZ_MUSpN/view"
+                        class="btn btn-primary rounded-pill" type="button">Download</a>
                 </div>
             </div>
             <div class="row content">
                 <div class="col-sm col-wrapper" data-aos="fade-right" data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
                     <p class="tanggal">
-                        Minggu, 1 Januari 2023
+                        Minggu, 8 Januari 2023
                     </p>
                 </div>
                 <div class="col-sm col-wrapper text-center" data-aos="fade-left" data-aos-offset="300"
@@ -78,7 +79,7 @@
                 <div class="col-sm col-wrapper" data-aos="fade-right" data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
                     <p class="tanggal">
-                        Minggu, 1 Januari 2023
+                        Minggu, 15 Januari 2023
                     </p>
                 </div>
                 <div class="col-sm col-wrapper text-center" data-aos="fade-left" data-aos-offset="300"
@@ -90,7 +91,7 @@
                 <div class="col-sm col-wrapper" data-aos="fade-right" data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
                     <p class="tanggal">
-                        Minggu, 1 Januari 2023
+                        Minggu, 22 Januari 2023
                     </p>
                 </div>
                 <div class="col-sm col-wrapper text-center" data-aos="fade-left" data-aos-offset="300"

@@ -230,9 +230,67 @@
   .tes {
     display: none;
   }
+  .jp-1 h2 {
+    font-size: 25px !important;
+    text-align: center;
+  }
+  .jp-1 h3 {
+    font-size: 20px !important;
+    text-align: center;
+    font-style: italic;
+  }
+  .jp-1 h4 {
+    font-size: 18px !important;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .jp-2 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  .jp-2 h2 {
+    font-size: 18px !important;
+  }
+
+  .jp-3 h2 {
+    font-size: 20px !important;
+    text-align: center;
+  }
+  .jp-3 h3 {
+    font-size: 15px !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 368px) {
+  .navbarlogo {
+    height: 44px;
+  }
+}
+
+@media (max-width: 354px) {
+  .navbarlogo {
+    height: 42px;
+  }
+}
+
+@media (max-width: 333px) {
+  .navbarlogo {
+    height: 41px;
+  }
+}
+
+@media (max-width: 331px) {
+  .navbarlogo {
+    height: 40px;
+  }
 }
 
 @media (max-width: 320px) {
+  .tanggal {
+    font-size: 19px;
+  }
   .navbarlogo {
     height: 37px;
   }
