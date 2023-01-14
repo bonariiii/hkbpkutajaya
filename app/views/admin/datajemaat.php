@@ -9,6 +9,13 @@
             </ol>
         </nav>
     </div><!-- End Page Title -->
+    <div class="row text-center justify-content-center">
+        <div class="col-12">
+            <div class="flash">
+                <?php Flasher::flash(); ?>
+            </div>
+        </div>
+    </div>
 
     <section class="section dashboard">
         <div class="row">
@@ -37,7 +44,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Tabel Jemaat <span>| HKBP Kutajaya</span></h5>
                         <div class="tambahjemaat mb-3 d-flex justify-content-end">
-                            <a href="admin/editjemaat" class="btn btn-primary">Tambah Jemaat</a>
+                            <a href="admin/tambahjemaat" class="btn btn-primary">Tambah Jemaat</a>
                         </div>
                         <table class="table datatable">
                             <thead>
@@ -53,25 +60,22 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php $i=1; ?>
+                                <?php $i = 1; ?>
                                 <?php foreach ($data['jemaat'] as $jemaat) : ?>
-                                <tr>
-                                    <th scope="row"><a href="#"><?= $i++ ?></a></th>
-                                    <td><?= $jemaat['nama_jemaat']; ?></td>
-                                    <td><?= $jemaat['umur']; ?></td>
-                                    <td><?= $jemaat['alamat_jemaat']; ?></td>
-                                    <td><?= $jemaat['nama_wijk']; ?></td>
-                                    <td><?= $jemaat['jenis_kelamin']; ?></td>
-                                    <td><?= $jemaat['status_menikah']; ?></td>
-                                    <td><a href="admin/editjemaat" class="badge bg-primary me-1">Edit</a><a
-                                            href="admin/hapusjemaat" class="badge bg-danger">Hapus</a></td>
-                                </tr>
+                                    <tr>
+                                        <th scope="row"><a href="#"><?= $i++ ?></a></th>
+                                        <td><?= $jemaat['nama_jemaat']; ?></td>
+                                        <td><?= $jemaat['umur']; ?></td>
+                                        <td><?= $jemaat['alamat_jemaat']; ?></td>
+                                        <td><?= $jemaat['nama_wijk']; ?></td>
+                                        <td><?= $jemaat['jenis_kelamin']; ?></td>
+                                        <td><?= $jemaat['status_menikah']; ?></td>
+                                        <td><a href="admin/editjemaat" class="badge bg-primary me-1">Edit</a><a href="<?= BASEURL; ?>admin/hapusjemaat/<?= $jemaat['id_jemaat']; ?>" class="badge bg-danger">Hapus</a></td>
+                                    </tr>
                                 <?php endforeach ?>
                             </tbody>
                         </table>
-
                     </div>
-                    badge bg-danger
                 </div>
             </div><!-- End Recent Sales -->
 

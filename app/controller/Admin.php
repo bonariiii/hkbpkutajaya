@@ -1,14 +1,15 @@
-<?php 
+<?php
 
-class Admin extends Controller {
+class Admin extends Controller
+{
     public function index()
-    {   
+    {
         if (!isset($_SESSION['nama'])) {
-            $data['title']="Login";
-            $this->view('admin/header/header',$data);
+            $data['title'] = "Login";
+            $this->view('admin/header/header', $data);
             $this->view('admin/pages-login');
             $this->view('admin/footer/footer');
-        }else {
+        } else {
             $data['title'] = "Halaman Admin";
             $this->view('admin/header/header', $data);
             $this->view('admin/sidebar/sidebar');
@@ -17,15 +18,15 @@ class Admin extends Controller {
         }
     }
     public function jemaat()
-    {   
+    {
         if (!isset($_SESSION['nama'])) {
-            $data['title']="Login";
-            $this->view('admin/header/header',$data);
+            $data['title'] = "Login";
+            $this->view('admin/header/header', $data);
             $this->view('admin/pages-login');
             $this->view('admin/footer/footer');
-        }else {
+        } else {
             $data['title'] = "Data Jemaat";
-            $data['jemaat'] = $this->model('Admin_model')->getAllJemaat();
+            $data['jemaat'] = $this->model('Jemaat_model')->getAllJemaat();
             $this->view('admin/header/header', $data);
             $this->view('admin/sidebar/sidebar');
             $this->view('admin/datajemaat', $data);
@@ -34,14 +35,27 @@ class Admin extends Controller {
         }
     }
 
+    public function hapusJemaat($id)
+    {
+        if ($this->model('Jemaat_model')->hapusJemaat($id) > 0) {
+            Flasher::setFlash('Data', 'Berhasil dihapus', 'success');
+            header('Location:' . BASEURL . 'admin/jemaat');
+            exit;
+        } else {
+            Flasher::setFlash('Data gagal', 'Dihapus', 'danger');
+            header('Location:' . BASEURL . 'admin/jemaat');
+            exit;
+        }
+    }
+
     public function pendeta()
-    {   
+    {
         if (!isset($_SESSION['nama'])) {
-            $data['title']="Login";
-            $this->view('admin/header/header',$data);
+            $data['title'] = "Login";
+            $this->view('admin/header/header', $data);
             $this->view('admin/pages-login');
             $this->view('admin/footer/footer');
-        }else {
+        } else {
             $data['title'] = "Data Jemaat";
             $this->view('admin/header/header', $data);
             $this->view('admin/sidebar/sidebar');
@@ -51,13 +65,13 @@ class Admin extends Controller {
     }
 
     public function pengurus()
-    {   
+    {
         if (!isset($_SESSION['nama'])) {
-            $data['title']="Login";
-            $this->view('admin/header/header',$data);
+            $data['title'] = "Login";
+            $this->view('admin/header/header', $data);
             $this->view('admin/pages-login');
             $this->view('admin/footer/footer');
-        }else {
+        } else {
             $data['title'] = "Data Jemaat";
             $this->view('admin/header/header', $data);
             $this->view('admin/sidebar/sidebar');
@@ -74,8 +88,4 @@ class Admin extends Controller {
             exit;
         }
     }
-    
 }
-
-
- ?>
