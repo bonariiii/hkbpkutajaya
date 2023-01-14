@@ -15,8 +15,8 @@
 
             <!-- Tabel Jemaat -->
             <div class="col-12">
-                <div class="card recent-sales overflow-auto">
 
+                <div class="card recent-sales overflow-auto">
                     <div class="filter">
                         <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
                         <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -24,15 +24,21 @@
                                 <h6>Filter</h6>
                             </li>
 
-                            <li><a class="dropdown-item" href="#">Today</a></li>
-                            <li><a class="dropdown-item" href="#">This Month</a></li>
-                            <li><a class="dropdown-item" href="#">This Year</a></li>
+                            <li><a class="dropdown-item" href="#">Baoa</a></li>
+                            <li><a class="dropdown-item" href="#">Borua</a></li>
+                            <li><a class="dropdown-item" href="#">Ama</a></li>
+                            <li><a class="dropdown-item" href="#">Ina</a></li>
+                            <li><a class="dropdown-item" href="#">Naposo</a></li>
+                            <li><a class="dropdown-item" href="#">Remaja</a></li>
+                            <li><a class="dropdown-item" href="#">Dakdanak</a></li>
                         </ul>
                     </div>
 
                     <div class="card-body">
                         <h5 class="card-title">Tabel Jemaat <span>| HKBP Kutajaya</span></h5>
-
+                        <div class="tambahjemaat mb-3 d-flex justify-content-end">
+                            <a href="admin/editjemaat" class="btn btn-primary">Tambah Jemaat</a>
+                        </div>
                         <table class="table datatable">
                             <thead>
                                 <tr>
@@ -57,15 +63,15 @@
                                     <td><?= $jemaat['nama_wijk']; ?></td>
                                     <td><?= $jemaat['jenis_kelamin']; ?></td>
                                     <td><?= $jemaat['status_menikah']; ?></td>
-                                    <td><span class="badge bg-success me-3">Edit</span><span
-                                            class="badge bg-danger">Hapus</span></td>
+                                    <td><a href="admin/editjemaat" class="badge bg-primary me-1">Edit</a><a
+                                            href="admin/hapusjemaat" class="badge bg-danger">Hapus</a></td>
                                 </tr>
                                 <?php endforeach ?>
                             </tbody>
                         </table>
 
                     </div>
-
+                    badge bg-danger
                 </div>
             </div><!-- End Recent Sales -->
 
