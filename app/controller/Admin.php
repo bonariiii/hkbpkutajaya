@@ -35,6 +35,17 @@ class Admin extends Controller
         }
     }
 
+    public function tambahJemaat()
+    {
+        if ($this->model('Jemaat_model')->tambahJemaat($_POST) > 0) {
+            Flasher::setFlash('Data baru berhasil ', 'Ditambah', 'success');
+            header('Location:' . BASEURL . 'admin/jemaat'); 
+        } else {
+            Flasher::setFlash('Data gagal ', 'Diinput', 'danger');
+            header('Location:' . BASEURL . 'admin/jemaat'); 
+        }
+    }
+
     public function hapusJemaat($id)
     {
         if ($this->model('Jemaat_model')->hapusJemaat($id) > 0) {

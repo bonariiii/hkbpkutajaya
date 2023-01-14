@@ -1,8 +1,6 @@
 <?php
 
-class Admin_model
-{
-    private $table = 'mahasiswa';
+class Admin_model {
     private $db;
 
     public function __construct()
@@ -25,7 +23,7 @@ class Admin_model
 
             //jika belum ada namanya dalam database maka lanjutkan proses registrasi
             $password = password_hash($data['password'], PASSWORD_DEFAULT);
-            $query = "INSERT INTO admin (id_admin, nama, email, password) VALUES ('', :nama, :email, :password)";
+            $query = "INSERT INTO admin (nama, email, password) VALUES (:nama, :email, :password)";
 
             $this->db->query($query);
             $this->db->bind('nama', $data['nama']);

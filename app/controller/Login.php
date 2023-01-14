@@ -9,6 +9,7 @@ class Login extends Controller {
 
             $data['title']="Login";
         $this->view('admin/header/header',$data);
+        $this->view('admin/sidebar/sidebar');
         $this->view('admin/index');
         $this->view('admin/footer/footer');
         } else {

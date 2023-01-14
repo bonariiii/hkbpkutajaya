@@ -27,6 +27,7 @@
     <link href="<?= BASEURL; ?>public/assets_admin/vendor/quill/quill.bubble.css" rel="stylesheet">
     <link href="<?= BASEURL; ?>public/assets_admin/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="<?= BASEURL; ?>public/assets_admin/vendor/simple-datatables/style.css" rel="stylesheet">
+    <link href="<?= BASEURL; ?>public/assets_admin/vendor/datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
     <link href="<?= BASEURL; ?>public/assets_admin/css/style.css" rel="stylesheet">

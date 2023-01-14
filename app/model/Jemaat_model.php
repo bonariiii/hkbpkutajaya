@@ -1,7 +1,6 @@
 <?php
 
-class Jemaat_model
-{
+class Jemaat_model {
     private $db;
 
     public function __construct()
@@ -24,6 +23,23 @@ class Jemaat_model
         $query = "DELETE FROM jemaat WHERE id_jemaat = :id";
         $this->db->query($query);
         $this->db->bind('id', $id);
+        $this->db->execute();
+        return $this->db->rowCount();
+    }
+
+    public function tambahJemaat($data)
+    {
+        $query = "INSERT INTO jemaat (nik, no_kk, nama_jemaat, alamat_jemaat, wijk, tempat_lahir, tanggal_lahir, jenis_kelamin, status_menikah, id_role) VALUES (:nik , :nokk, :namajemaat, :alamatjemaat, :wijk, :tempatlahir, :tanggallahir, :jeniskelamin, :statusmenikah, DEFAULT)";
+        $this->db->query($query);
+        $this->db->bind('nik', $data['nik']);
+        $this->db->bind('nokk', $data['no_kk']);
+        $this->db->bind('namajemaat', $data['nama_jemaat']);
+        $this->db->bind('alamatjemaat', $data['alamat_jemaat']);
+        $this->db->bind('wijk', $data['wijk']);
+        $this->db->bind('tempatlahir', $data['tempat_lahir']);
+        $this->db->bind('tanggallahir', $data['tanggal_lahir']);
+        $this->db->bind('jeniskelamin', $data['jenis_kelamin']);
+        $this->db->bind('statusmenikah', $data['status_menikah']);
         $this->db->execute();
         return $this->db->rowCount();
     }
