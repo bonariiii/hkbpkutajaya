@@ -2,8 +2,8 @@
 <header id="header" class="header fixed-top d-flex align-items-center">
 
     <div class="d-flex align-items-center justify-content-between">
-        <a href="http://localhost/hkbpkutajaya/admin" class="logo d-flex align-items-center">
-            <img src="http://localhost/hkbpkutajaya/public/assets_admin/img/logo.png" alt="">
+        <a href="<?= BASEURL; ?>admin" class="logo d-flex align-items-center">
+            <img src="<?= BASEURL; ?>public/assets_admin/img/logo.png" alt="">
             <span class="d-none d-lg-block">HKBP Kutajaya</span>
         </a>
         <i class="bi bi-list toggle-sidebar-btn"></i>
@@ -118,7 +118,7 @@
 
                     <li class="message-item">
                         <a href="#">
-                            <img src="http://localhost/hkbpkutajaya/public/assets_admin/img/messages-1.jpg" alt=""
+                            <img src="<?= BASEURL; ?>public/assets_admin/img/messages-1.jpg" alt=""
                                 class="rounded-circle">
                             <div>
                                 <h4>Maria Hudson</h4>
@@ -133,7 +133,7 @@
 
                     <li class="message-item">
                         <a href="#">
-                            <img src="http://localhost/hkbpkutajaya/public/assets_admin/img/messages-2.jpg" alt=""
+                            <img src="<?= BASEURL; ?>public/assets_admin/img/messages-2.jpg" alt=""
                                 class="rounded-circle">
                             <div>
                                 <h4>Anna Nelson</h4>
@@ -148,7 +148,7 @@
 
                     <li class="message-item">
                         <a href="#">
-                            <img src="http://localhost/hkbpkutajaya/public/assets_admin/img/messages-3.jpg" alt=""
+                            <img src="<?= BASEURL; ?>public/assets_admin/img/messages-3.jpg" alt=""
                                 class="rounded-circle">
                             <div>
                                 <h4>David Muldon</h4>
@@ -172,7 +172,7 @@
             <li class="nav-item dropdown pe-3">
 
                 <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-                    <img src="http://localhost/hkbpkutajaya/public/assets_admin/img/profile-img.jpg" alt="Profile"
+                    <img src="<?= BASEURL; ?>public/assets_admin/img/profile-img.jpg" alt="Profile"
                         class="rounded-circle">
                     <span class="d-none d-md-block dropdown-toggle ps-2">Admin Gereja</span>
                 </a><!-- End Profile Iamge Icon -->

@@ -21,8 +21,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 footer-contact">
                     <h3>
-                        <a href="index.html"><img src="http://localhost/hkbpkutajaya/public/img/footerlogo2.png"
-                                alt=""></a>
+                        <a href="index.html"><img src="<?= BASEURL; ?>public/img/footerlogo2.png" alt=""></a>
                     </h3>
                     <p>
                         Kompleks Ruko Buana Subur Blok E No. 11, Jl. Raya Ps. Kemis No.KM 3.5, Gelam Jaya, Pasar Kemis,
@@ -113,7 +112,7 @@
 </script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-<script src="http://localhost/hkbpkutajaya/public/js/script.js"></script>
+<script src="<?= BASEURL; ?>public/js/script.js"></script>
 
 <!-- AOS JS -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

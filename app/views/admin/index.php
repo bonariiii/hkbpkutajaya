@@ -327,7 +327,7 @@
                                     <tbody>
                                         <tr>
                                             <th scope="row"><a href="#"><img
-                                                        src="http://localhost/hkbpkutajaya/public/assets_admin/img/product-1.jpg"
+                                                        src="<?= BASEURL; ?>public/assets_admin/img/product-1.jpg"
                                                         alt=""></a>
                                             </th>
                                             <td><a href="#" class="text-primary fw-bold">Ut inventore ipsa voluptas
@@ -338,7 +338,7 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><a href="#"><img
-                                                        src="http://localhost/hkbpkutajaya/public/assets_admin/img/product-2.jpg"
+                                                        src="<?= BASEURL; ?>public/assets_admin/img/product-2.jpg"
                                                         alt=""></a>
                                             </th>
                                             <td><a href="#" class="text-primary fw-bold">Exercitationem similique
@@ -349,7 +349,7 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><a href="#"><img
-                                                        src="http://localhost/hkbpkutajaya/public/assets_admin/img/product-3.jpg"
+                                                        src="<?= BASEURL; ?>public/assets_admin/img/product-3.jpg"
                                                         alt=""></a>
                                             </th>
                                             <td><a href="#" class="text-primary fw-bold">Doloribus nisi
@@ -360,7 +360,7 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><a href="#"><img
-                                                        src="http://localhost/hkbpkutajaya/public/assets_admin/img/product-4.jpg"
+                                                        src="<?= BASEURL; ?>public/assets_admin/img/product-4.jpg"
                                                         alt=""></a>
                                             </th>
                                             <td><a href="#" class="text-primary fw-bold">Officiis quaerat sint rerum
@@ -371,7 +371,7 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><a href="#"><img
-                                                        src="http://localhost/hkbpkutajaya/public/assets_admin/img/product-5.jpg"
+                                                        src="<?= BASEURL; ?>public/assets_admin/img/product-5.jpg"
                                                         alt=""></a>
                                             </th>
                                             <td><a href="#" class="text-primary fw-bold">Sit unde debitis delectus
@@ -642,31 +642,31 @@
 
                         <div class="news">
                             <div class="post-item clearfix">
-                                <img src="http://localhost/hkbpkutajaya/public/assets_admin/img/news-1.jpg" alt="">
+                                <img src="<?= BASEURL; ?>public/assets_admin/img/news-1.jpg" alt="">
                                 <h4><a href="#">Nihil blanditiis at in nihil autem</a></h4>
                                 <p>Sit recusandae non aspernatur laboriosam. Quia enim eligendi sed ut harum...</p>
                             </div>
 
                             <div class="post-item clearfix">
-                                <img src="http://localhost/hkbpkutajaya/public/assets_admin/img/news-2.jpg" alt="">
+                                <img src="<?= BASEURL; ?>public/assets_admin/img/news-2.jpg" alt="">
                                 <h4><a href="#">Quidem autem et impedit</a></h4>
                                 <p>Illo nemo neque maiores vitae officiis cum eum turos elan dries werona nande...</p>
                             </div>
 
                             <div class="post-item clearfix">
-                                <img src="http://localhost/hkbpkutajaya/public/assets_admin/img/news-3.jpg" alt="">
+                                <img src="<?= BASEURL; ?>public/assets_admin/img/news-3.jpg" alt="">
                                 <h4><a href="#">Id quia et et ut maxime similique occaecati ut</a></h4>
                                 <p>Fugiat voluptas vero eaque accusantium eos. Consequuntur sed ipsam et totam...</p>
                             </div>
 
                             <div class="post-item clearfix">
-                                <img src="http://localhost/hkbpkutajaya/public/assets_admin/img/news-4.jpg" alt="">
+                                <img src="<?= BASEURL; ?>public/assets_admin/img/news-4.jpg" alt="">
                                 <h4><a href="#">Laborum corporis quo dara net para</a></h4>
                                 <p>Qui enim quia optio. Eligendi aut asperiores enim repellendusvel rerum cuder...</p>
                             </div>
 
                             <div class="post-item clearfix">
-                                <img src="http://localhost/hkbpkutajaya/public/assets_admin/img/news-5.jpg" alt="">
+                                <img src="<?= BASEURL; ?>public/assets_admin/img/news-5.jpg" alt="">
                                 <h4><a href="#">Et dolores corrupti quae illo quod dolor</a></h4>
                                 <p>Odit ut eveniet modi reiciendis. Atque cupiditate libero beatae dignissimos eius...
                                 </p>

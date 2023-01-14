@@ -3,8 +3,7 @@
         <div class="swiper home-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="box"
-                        style="background: url(http://localhost/hkbpkutajaya/public/img/home-bg-1.jpg) no-repeat;">
+                    <div class="box" style="background: url(<?= BASEURL; ?>public/img/home-bg-1.jpg) no-repeat;">
                         <div class="content">
                             <span>Selamat datang di website resmi</span>
                             <h3>HKBP KUTAJAYA</h3>
@@ -14,8 +13,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="box "
-                        style="background: url(http://localhost/hkbpkutajaya/public/img/home-bg-2.jpg) no-repeat;">
+                    <div class="box " style="background: url(<?= BASEURL; ?>public/img/home-bg-2.jpg) no-repeat;">
                         <div class="content">
                             <span>Selamat datang di website resmi</span>
                             <h3>HKBP KUTAJAYA</h3>
@@ -25,8 +23,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="box"
-                        style="background: url(http://localhost/hkbpkutajaya/public/img/home-bg-3.jpg) no-repeat;">
+                    <div class="box" style="background: url(<?= BASEURL; ?>public/img/home-bg-3.jpg) no-repeat;">
                         <div class="content">
                             <span>Selamat datang di website resmi</span>
                             <h3>HKBP KUTAJAYA</h3>
@@ -109,7 +106,7 @@
     <!-- about section starts  -->
     <section class="about" id="about">
         <div class="image" data-aos="zoom-in-up">
-            <img src="http://localhost/hkbpkutajaya/public/img/about-img.jpg" alt="">
+            <img src="<?= BASEURL; ?>public/img/about-img.jpg" alt="">
         </div>
         <div class="content">
             <h3 data-aos="fade-up" data-aos-delay="100">excellent services experiences</h3>
@@ -143,7 +140,7 @@
             </div>
             <div class="col-12">
                 <div class="card h-100 icon-box" data-aos="zoom-in" data-aos-delay="100">
-                    <img src="http://localhost/hkbpkutajaya/public/img/datacenter.jpg" class="card-img-top" alt="...">
+                    <img src="<?= BASEURL; ?>public/img/datacenter.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Data Center Design & Assessment</h5>
                         <p class="card-text">MDS offers a comprehensive array of facility and support infrastructure
@@ -155,7 +152,7 @@
             </div>
             <div class="col-12">
                 <div class="card h-100 icon-box" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="http://localhost/hkbpkutajaya/public/img/datacenterconstruction.jpg" class="card-img-top"
+                    <img src="<?= BASEURL; ?>public/img/datacenterconstruction.jpg" class="card-img-top"
                         alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Data Center Construction</h5>
@@ -168,7 +165,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 icon-box" data-aos="zoom-in" data-aos-delay="300">
-                    <img src="http://localhost/hkbpkutajaya/public/img/cable.jpg" class="card-img-top" alt="...">
+                    <img src="<?= BASEURL; ?>public/img/cable.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Structured Cabling System</h5>
                         <p class="card-text">MDS is the best choice for being partner in Cabling System Solutions,
@@ -179,7 +176,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 icon-box" data-aos="zoom-in" data-aos-delay="400">
-                    <img src="http://localhost/hkbpkutajaya/public/img/electrical.jpg" class="card-img-top" alt="...">
+                    <img src="<?= BASEURL; ?>public/img/electrical.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Mechanical/Electrical Development System</h5>
                         <p class="card-text">We offer our customer a range of high quality general mechanical,
@@ -202,7 +199,7 @@
             </div>
             <div class="row tempat-jadwal justify-content-center" data-aos="fade-up">
                 <div class="col-sm-1 align-self-center me-4" id="logo-pelayanan">
-                    <img src="http://localhost/hkbpkutajaya/public/img/bi.png" class="img-thumbnail border-0" alt="...">
+                    <img src="<?= BASEURL; ?>public/img/bi.png" class="img-thumbnail border-0" alt="...">
                 </div>
                 <div class="col-sm-6 black p-3">
                     <div class="row ">
@@ -226,7 +223,7 @@
 
             <div class="row tempat-jadwal justify-content-center " data-aos="fade-up">
                 <div class="col-1 tes align-self-center me-4 ">
-                    <img src="http://localhost/hkbpkutajaya/public/img/bi.png" class="img-thumbnail border-0" alt="...">
+                    <img src="<?= BASEURL; ?>public/img/bi.png" class="img-thumbnail border-0" alt="...">
                 </div>
                 <div class="col-sm-6 black p-3">
                     <div class="row">
@@ -250,7 +247,7 @@
 
             <div class="row tempat-jadwal justify-content-center " data-aos="fade-up">
                 <div class="col-1 tes align-self-center me-4 ">
-                    <img src="http://localhost/hkbpkutajaya/public/img/bi.png" class="img-thumbnail border-0" alt="...">
+                    <img src="<?= BASEURL; ?>public/img/bi.png" class="img-thumbnail border-0" alt="...">
                 </div>
                 <div class="col-sm-6 black p-3">
                     <div class="row">
@@ -274,7 +271,7 @@
 
             <div class="row tempat-jadwal justify-content-center " data-aos="fade-up">
                 <div class="col-1 tes align-self-center me-4 ">
-                    <img src="http://localhost/hkbpkutajaya/public/img/bi.png" class="img-thumbnail border-0" alt="...">
+                    <img src="<?= BASEURL; ?>public/img/bi.png" class="img-thumbnail border-0" alt="...">
                 </div>
                 <div class="col-sm-6 black p-3">
                     <div class="row">
@@ -298,7 +295,7 @@
 
             <div class="row tempat-jadwal justify-content-center " data-aos="fade-up">
                 <div class="col-1 tes align-self-center me-4 ">
-                    <img src="http://localhost/hkbpkutajaya/public/img/bi.png" class="img-thumbnail border-0" alt="...">
+                    <img src="<?= BASEURL; ?>public/img/bi.png" class="img-thumbnail border-0" alt="...">
                 </div>
                 <div class="col-sm-6 black p-3">
                     <div class="row">

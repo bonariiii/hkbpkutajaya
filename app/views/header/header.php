@@ -17,16 +17,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="http://localhost/hkbpkutajaya/public/css/style.css">
-    <link rel="stylesheet" href="http://localhost/hkbpkutajaya/public/css/media-queries.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>public/css/style.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>public/css/media-queries.css">
 </head>
 
 
 <body>
     <!-- header section starts  -->
     <header class="header">
-        <a href="/" class="logo"> <img class="navbarlogo" src="http://localhost/hkbpkutajaya/public/img/gereja.png"
-                alt=""></i></a>
+        <a href="/" class="logo"> <img class="navbarlogo" src="<?= BASEURL; ?>public/img/gereja.png" alt=""></i></a>
         <nav class="navbar">
             <div id="nav-close" class="fas fa-times"></div>
             <a href="/">Beranda</a>
@@ -35,7 +34,7 @@
             <a href="">Organisasi</a>
             <a href="">Dokumentasi</a>
             <a href="">Tentang Kami</a>
-            <a href="http://localhost/hkbpkutajaya/login">Login</a>
+            <a href="<?= BASEURL; ?>login">Login</a>
         </nav>
         <div class="icons">
             <div id="menu-btn" class="fas fa-bars"></div>
