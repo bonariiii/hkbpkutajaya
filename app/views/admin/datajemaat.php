@@ -57,9 +57,8 @@
                                     <td><?= $jemaat['nama_wijk']; ?></td>
                                     <td><?= $jemaat['jenis_kelamin']; ?></td>
                                     <td><?= $jemaat['status_menikah']; ?></td>
-                                    <td><span class="badge bg-success">edit</span><span
-                                            class="badge bg-success">hapus</span><span
-                                            class="badge bg-success">hapus</span></td>
+                                    <td><span class="badge bg-success me-3">Edit</span><span
+                                            class="badge bg-danger">Hapus</span></td>
                                 </tr>
                                 <?php endforeach ?>
                             </tbody>
