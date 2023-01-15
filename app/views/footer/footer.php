@@ -26,8 +26,8 @@
                     <p>
                         Kompleks Ruko Buana Subur Blok E No. 11, Jl. Raya Ps. Kemis No.KM 3.5, Gelam Jaya, Pasar Kemis,
                         Tangerang, Banten 15560<br><br>
-                        <strong>Phone:</strong> (021)22788284<br>
-                        <strong>Email:</strong> info@media-ds.co.id<br>
+                        <strong>Phone:</strong> (021)227882**<br>
+                        <strong>Email:</strong> hkbpkutajaya@gmail.com<br>
                     </p>
                 </div>
 

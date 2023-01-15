@@ -47,55 +47,22 @@
                 <h1 class="heading">WARTA JEMAAT <br> HKBP KUTAJAYA</h1>
             </div>
             <hr>
-            <div class="row content">
-                <div class="col-sm col-wrapper" data-aos="fade-right" data-aos-offset="300"
+
+            <?php foreach ($data["warta"] as $warta) : ?>
+            <div class="row content pb-4">
+                <div class="col-sm text-center" data-aos="fade-right" data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
                     <p class="tanggal">
-                        Minggu, 1 Januari 2023
+                        <?= $warta['tanggal']; ?>
                     </p>
                 </div>
-                <div class="col-sm col-wrapper text-center" data-aos="fade-left" data-aos-offset="300"
+                <div class="col-sm text-center" data-aos="fade-left" data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
-                    <a href="https://drive.google.com/file/d/1v_yOtUmkGrwQHuAIjMivBPA6EZ_MUSpN/view"
-                        class="btn btn-primary rounded-pill" type="button">Download</a>
+                    <a href="<?= $warta['link_warta']; ?>" class="btn btn-primary rounded-pill"
+                        type="button">Download</a>
                 </div>
             </div>
-            <div class="row content">
-                <div class="col-sm col-wrapper" data-aos="fade-right" data-aos-offset="300"
-                    data-aos-easing="ease-in-sine">
-                    <p class="tanggal">
-                        Minggu, 8 Januari 2023
-                    </p>
-                </div>
-                <div class="col-sm col-wrapper text-center" data-aos="fade-left" data-aos-offset="300"
-                    data-aos-easing="ease-in-sine">
-                    <button type="button" class="btn btn-primary rounded-pill ">Download</button>
-                </div>
-            </div>
-            <div class="row content">
-                <div class="col-sm col-wrapper" data-aos="fade-right" data-aos-offset="300"
-                    data-aos-easing="ease-in-sine">
-                    <p class="tanggal">
-                        Minggu, 15 Januari 2023
-                    </p>
-                </div>
-                <div class="col-sm col-wrapper text-center" data-aos="fade-left" data-aos-offset="300"
-                    data-aos-easing="ease-in-sine">
-                    <button type="button" class="btn btn-primary rounded-pill ">Download</button>
-                </div>
-            </div>
-            <div class="row content">
-                <div class="col-sm col-wrapper" data-aos="fade-right" data-aos-offset="300"
-                    data-aos-easing="ease-in-sine">
-                    <p class="tanggal">
-                        Minggu, 22 Januari 2023
-                    </p>
-                </div>
-                <div class="col-sm col-wrapper text-center" data-aos="fade-left" data-aos-offset="300"
-                    data-aos-easing="ease-in-sine">
-                    <button type="button" class="btn btn-primary rounded-pill ">Download</button>
-                </div>
-            </div>
+            <?php endforeach ?>
         </div>
     </section>
     <!-- End About Us Section -->
@@ -109,17 +76,22 @@
             <img src="<?= BASEURL; ?>public/img/about-img.jpg" alt="">
         </div>
         <div class="content">
-            <h3 data-aos="fade-up" data-aos-delay="100">excellent services experiences</h3>
+            <h3 data-aos="fade-up" data-aos-delay="100">Dasar Pelayanan HKBP Kutajaya</h3>
             <div data-aos="fade-up" data-aos-delay="150">
-                <p>Each data center is supported by a stable power supply, protection against fire, environment control,
-                    security emergency exits, as well as precision air conditioning to maintain a stable and comfortable
-                    room temperature, natural air flow, and a maintained humidity level, all of which is operational 24
-                    hours a day.</p>
+                <p>Prinsip HKBP Tebet Pada dasarnya prinsip yang dikembangkan dalam menjalankan visidan misi akan
+                    mencakup beberapa prinsip, antara lain:
+                    Melayani sebagai bagian mengaktualisasikan firman Tuhan dalam kehidupan sehari-hari
+                    Menjadi Garam dan Terang sehingga kehadiran jemaat HKBP Tebet bermanfaat dan berguna
+                    Menjaga keutuhan ciptaan sebagai bagian masyarakat global yang menghadapi krisis lingkungan
+                    Menyuarakan perdamaian dan suara keadilan dalam hidup berjemaat</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="200">
-                <p>Meanwhile, the security of each data center is strictly guaranteed using Access Control Biometric
-                    technology, CCTV and trained security personnel.</p>
-                <a href="#" class="btn">Download</a>
+                <p>Visi HKBP Tebet Membangun jemaat di HKBP Tebet yang missioner,inklusif, terbuka dan dialogis untuk
+                    menjadi pewarta kasih Kristus.</p>
+                <p>Misi HKBP Tebet HKBP Tebet berusaha dan berupaya untuk membangun dan meningkatkan Kematangan Iman
+                    Jemaat sehingga semua jemaat HKBP Tebet bisa menjadi terang dan garam buat lingkungan sebagai bagian
+                    menjaga keutuhan ciptaan serta menciptakan jemaat yang mandiri.</p>
+                <!-- <a href="#" class="btn btn-primary rounded-pill">Download</a> -->
             </div>
         </div>
     </section>

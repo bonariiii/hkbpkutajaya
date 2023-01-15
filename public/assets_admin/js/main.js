@@ -343,10 +343,88 @@
       }).observe(mainContainer);
     }, 200);
   }
-})();
 
-$("#tanggal_lahir").datepicker({
-  autoclose: true,
-  containere: ".datepicker",
-  format: "yyyy-mm-dd",
-});
+  $("#tanggal_lahir").datepicker({
+    autoclose: true,
+    containere: ".datepicker",
+    format: "yyyy-mm-dd",
+  });
+
+  $("#tanggal_warta").datepicker({
+    autoclose: true,
+    containere: ".datepicker",
+    format: "yyyy-mm-dd",
+  });
+
+  $(".tampilModalTambah").on("click", function () {
+    $("#exampleModalLabel").html("Tambah Data Jemaat");
+    $(".modal-footer button[type=submit]").html("Tambah Data");
+    $("#nama_jemaat").val("");
+    $("#nik").val("");
+    $("#no_kk").val("");
+    $("#alamat_jemaat").val("");
+    $("#tempat_lahir").val("");
+    $("#tanggal_lahir").val("");
+    $("#jenis_kelamin").val("");
+    $("#status_menikah").val("");
+    $("#wijk").val("");
+  });
+
+  $(".tampilModalUbah").on("click", function () {
+    $("#exampleModalLabel").html("Ubah Data Jemaat");
+    $(".modal-footer button[type=submit]").html("Ubah Data");
+    $(".modal-body form").attr(
+      "action",
+      "http://localhost/hkbpkutajaya/admin/ubahjemaat"
+    );
+
+    const id = $(this).data("id");
+    $.ajax({
+      url: "http://localhost/hkbpkutajaya/admin/getubahjemaat",
+      data: { id: id },
+      method: "post",
+      dataType: "json",
+      success: function (data) {
+        $("#id_jemaat").val(data.id_jemaat);
+        $("#nama_jemaat").val(data.nama_jemaat);
+        $("#nik").val(data.nik);
+        $("#no_kk").val(data.no_kk);
+        $("#alamat_jemaat").val(data.alamat_jemaat);
+        $("#tempat_lahir").val(data.tempat_lahir);
+        $("#tanggal_lahir").val(data.tanggal_lahir);
+        $("#jenis_kelamin").val(data.jenis_kelamin);
+        $("#status_menikah").val(data.status_menikah);
+        $("#wijk").val(data.wijk);
+      },
+    });
+  });
+
+  $(".tampilModalTambahWarta").on("click", function () {
+    $("#exampleModalLabel").html("Tambah Data Warta");
+    $(".modal-footer button[type=submit]").html("Tambah Warta");
+    $("#tanggal_warta").val("");
+    $("#link_warta").val("");
+  });
+
+  $(".tampilModalUbahWarta").on("click", function () {
+    $("#exampleModalLabel").html("Ubah Warta");
+    $(".modal-footer .cancel").html("Batalkan");
+    $(".modal-footer button[type=submit]").html("Edit Warta");
+    $(".modal-body form").attr(
+      "action",
+      "http://localhost/hkbpkutajaya/admin/ubahwarta"
+    );
+
+    const id = $(this).data("id");
+    $.ajax({
+      url: "http://localhost/hkbpkutajaya/admin/getubahwarta",
+      data: { id: id },
+      method: "post",
+      dataType: "json",
+      success: function (data) {
+        $("#tanggal_warta").val(data.tanggal_warta);
+        $("#link_warta").val(data.link_warta);
+      },
+    });
+  });
+})();

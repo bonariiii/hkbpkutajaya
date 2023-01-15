@@ -43,4 +43,31 @@ class Jemaat_model {
         $this->db->execute();
         return $this->db->rowCount();
     }
+
+    public function getUbahJemaat($data)
+    {
+        //ambil data
+        $query= "SELECT * FROM jemaat WHERE id_jemaat = :id";
+        $this->db->query($query);
+        $this->db->bind('id', $data);
+        $this->db->execute();
+        return $this->db->single();
+    }
+
+    public function ubahJemaat($data)
+    {
+        $this->db->query("UPDATE jemaat SET nik = :nik, no_kk = :nokk, nama_jemaat = :namajemaat, alamat_jemaat = :alamatjemaat, wijk = :wijk, tempat_lahir = :tempatlahir, tanggal_lahir = :tanggallahir, jenis_kelamin = :jeniskelamin, status_menikah = :statusmenikah, id_role = DEFAULT WHERE id_jemaat = :id");
+        $this->db->bind('id', $data['id_jemaat']);
+        $this->db->bind('nik', $data['nik']);
+        $this->db->bind('nokk', $data['no_kk']);
+        $this->db->bind('namajemaat', $data['nama_jemaat']);
+        $this->db->bind('alamatjemaat', $data['alamat_jemaat']);
+        $this->db->bind('wijk', $data['wijk']);
+        $this->db->bind('tempatlahir', $data['tempat_lahir']);
+        $this->db->bind('tanggallahir', $data['tanggal_lahir']);
+        $this->db->bind('jeniskelamin', $data['jenis_kelamin']);
+        $this->db->bind('statusmenikah', $data['status_menikah']);
+        $this->db->execute();
+        return $this->db->rowCount();
+    }
 }
